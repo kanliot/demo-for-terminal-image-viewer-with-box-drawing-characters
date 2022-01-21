@@ -1,0 +1,34 @@
+for ($a=0;$a<16;$a++){
+	($b,$_)= each @block;
+	next;
+	print "$a: $_\n";
+}
+
+# draw circle 
+my $radius =23;
+my @dcanvas; 
+our ($canvas_w, $canvas_h) = (60,30);
+my $mid_w = int $canvas_w; # dont divide by 2, since we are painting on the doubled canvas!
+my $mid_h = int $canvas_h;
+my $scale_up_width=2.02;
+
+sub inside { 
+	my ($x,$y) = (shift,shift);
+	# origin =20; 
+	my $dx=$mid_w- $x; 
+	$dx/=$scale_up_width;
+	my $dy=$mid_h-$y; 
+	if ( $radius > sqrt($dx*$dx +$dy*$dy) ) {
+		return 1;
+	}
+	return 0;
+}
+
+for (my $x =0;$x<$canvas_w*2;$x++){
+	for (my $y=0;$y<$canvas_h*2 ;$y++){
+		next;
+		$dcanvas[$x][$y]=1 if inside($x,$y);  
+	}
+}
+
+
