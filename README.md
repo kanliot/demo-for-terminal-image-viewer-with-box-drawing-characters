@@ -10,4 +10,11 @@ It is not useful in any way, but I wrote it.
 The program should work fine with a single argument if xtty and CPAN's Image:Magick is installed.
 Since ImageMagick is the back end, the image file does not matter, but it's pretty slow since it calls GetPixel for each pixel in the image. 
 
+#### question from reddit forums:
+> Can we see some examples? Maybe add them to the README.md on Github?
+
+#### *Answer*
+> I will do this. What do you need?
+
+> The perl program on my github isn't finished or polished. It is, I think very helpful for anyone wanting to draw with unicode block drawing characters. I wish I could say it's a code sample for CPAN's Image::Magick, but I'm learning perl, so no.
 
