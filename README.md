@@ -18,7 +18,6 @@ Since ImageMagick is the back end, the image file does not matter, but it's pret
 
 > The perl program on my github isn't finished or polished. It is, I think very helpful for anyone wanting to draw with unicode block drawing characters. I wish I could say it's a code sample for CPAN's Image::Magick, but I'm learning perl, so no.
 
-https://www.youtube.com/watch?v=oj3yizlzKdY
      
 
 #### follow up question: 
