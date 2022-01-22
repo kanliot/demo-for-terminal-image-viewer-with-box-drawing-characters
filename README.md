@@ -18,3 +18,15 @@ Since ImageMagick is the back end, the image file does not matter, but it's pret
 
 > The perl program on my github isn't finished or polished. It is, I think very helpful for anyone wanting to draw with unicode block drawing characters. I wish I could say it's a code sample for CPAN's Image::Magick, but I'm learning perl, so no.
 
+https://www.youtube.com/watch?v=oj3yizlzKdY
+     
+
+#### follow up question: 
+> Hardly needs explanation, I'd have thought. Your script does something with a visual/graphical output. Show us the output, and possibly the input if that's relevant.
+
+> I'm not going to install your script and all its dependencies unless I have some idea what it does graphically.
+
+ #### follow up answer
+> uh it looks like poo. i mean a terminal is 80x25, so how many images look good in 160x50 pixels, with non-square pixels?
+
+> I mean worse than poo really. Since in poo, sometimes you can make out the last thing you ate, but in this one, you can't.
