@@ -29,3 +29,8 @@ Since ImageMagick is the back end, the image file does not matter, but it's pret
 > uh it looks like poo. i mean a terminal is 80x25, so how many images look good in 160x50 pixels, with non-square pixels?
 
 > I mean worse than poo really. Since in poo, sometimes you can make out the last thing you ate, but in this one, you can't.
+
+![test](https://raw.githubusercontent.com/kanliot/demo-for-terminal-image-viewer-with-box-drawing-characters/main/geos%20berlkey%20softworks%20smallest%20pixel%20font%20berk64-misc.png)
+shows as 
+![test](https://github.com/kanliot/demo-for-terminal-image-viewer-with-box-drawing-characters/blob/bd3204d6be6a023c72db653da9c0eae63cbc0a2e/demo.jpg)
+notice the top line is cut off so that needs fixing. 
